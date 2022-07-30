@@ -226,6 +226,7 @@ h1, h2, h3, span, a{
 
 .logo {
     fill: #fff;
+    width: 60px;
 }
 
 .footer-info {
@@ -294,17 +295,26 @@ h1, h2, h3, span, a{
         height: 15px;
     }
 
+    .ap-box {
+        margin: 15px;
+        background-color: #242222;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 280px;
+        width: 280px;
+        padding: 15px 0;
+    }
+
     .ap-box-buy {
         margin: 10px;
+        width: 60px;
+        height: 60px;
     }
 
     .ap-box-buy:last-child {
         margin: 10px;
-    }
-
-    .ap-box-buy {
-        width: 60px;
-        height: 60px;
     }
 
     .ap-box-number {
@@ -316,7 +326,7 @@ h1, h2, h3, span, a{
     }
 
     .logo {
-        width: 50px;
+        width: 40px;
     }
 
     .footer-info {
