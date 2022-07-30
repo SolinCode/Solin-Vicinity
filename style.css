@@ -53,6 +53,7 @@ h1, h2, h3, span, a{
     text-align: right;
     font-size: 80px;
     margin-top: 60px;
+    animation: showOpcity 1.2s;
 }
 
 .header-buy {
@@ -73,6 +74,19 @@ h1, h2, h3, span, a{
     border-radius: 5px;
     box-shadow: #2B2927 0 4px 0;
     transition: .2s;
+    animation: show 1.2s;
+}
+
+@keyframes show {
+    from {
+        transform: translate(0, 30px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0px);
+        opacity: 1;
+    }
 }
 
 .buy-btn:hover {
@@ -249,7 +263,19 @@ h1, h2, h3, span, a{
 .header-logo-ds-info {
     display: flex;
     align-items: center;
+    animation: showOpcity 1.2s;
 }
+
+@keyframes showOpcity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
 
 .ds-logo {
     margin-right: 20px;
@@ -269,7 +295,7 @@ h1, h2, h3, span, a{
     }
 
     .header-buy {
-        bottom: 40px;
+        bottom: 80px;
         font-size: 15px;
     }
 

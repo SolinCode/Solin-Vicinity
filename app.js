@@ -19,8 +19,12 @@
 
         for (let i = 0; i < 9; i++) {
             a = r["apartList"][i].apart
-            b = "( " + r["apartList"][i].cost + " АБ )"
-
+            b = ''
+            
+            if (r["apartList"][i].cost != 0) {
+                b = "( " + r["apartList"][i].cost + " АБ )"
+            }
+            
             box1.innerHTML += `
             <div id="content" class="ap-box-buy">
                 <div class="ap-box-number">${a}</div>
@@ -41,7 +45,11 @@
 
         for (let i = 0; i < 9; i++) {
             a = r["apartList"][i+9].apart
-            b = "( " + r["apartList"][i+9].cost + " АБ )"
+            b = ''
+            
+            if (r["apartList"][i+9].cost != 0) {
+                b = "( " + r["apartList"][i+9].cost + " АБ )"
+            }
 
             box2.innerHTML += `
             <div id="content" class="ap-box-buy">
@@ -63,7 +71,11 @@
 
         for (let i = 0; i < 9; i++) {
             a = r["apartList"][i+18].apart
-            b = "( " + r["apartList"][i+18].cost + " АБ )"
+            b = ''
+            
+            if (r["apartList"][i+18].cost != 0) {
+                b = "( " + r["apartList"][i+18].cost + " АБ )"
+            }
 
             box3.innerHTML += `
             <div id="content" class="ap-box-buy">
