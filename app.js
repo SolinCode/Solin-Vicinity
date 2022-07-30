@@ -31,8 +31,11 @@
             if (r["apartList"][i].status == "sold") {
                 content.classList.add('red')
             }
-            else {
+            if (r["apartList"][i].status == "buy") {
                 content.classList.add('green')
+            }
+            if (r["apartList"][i].status == "booked") {
+                content.classList.add('blue')
             }
         }
 
@@ -50,8 +53,11 @@
             if (r["apartList"][i+9].status == "sold") {
                 content.classList.add('red')
             }
-            else {
+            if (r["apartList"][i+9].status == "buy") {
                 content.classList.add('green')
+            }
+            if (r["apartList"][i+9].status == "booked") {
+                content.classList.add('blue')
             }
         }
 
@@ -69,8 +75,11 @@
             if (r["apartList"][i+18].status == "sold") {
                 content.classList.add('red')
             }
-            else {
+            if (r["apartList"][i+18].status == "buy") {
                 content.classList.add('green')
+            }
+            if (r["apartList"][i+18].status == "booked") {
+                content.classList.add('blue')
             }
         }
     }
