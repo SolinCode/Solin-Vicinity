@@ -170,6 +170,9 @@ h1, h2, h3, span, a{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    height: 340px;
+    width: 340px;
+    padding: 15px 0;
 }
 
 .center {
@@ -194,13 +197,7 @@ h1, h2, h3, span, a{
     align-items: center;
     flex-wrap: wrap;
     border-radius: 15px;
-    margin-left: 30px;
-    margin-top: 30px;
-}
-
-.ap-box-buy:last-child {
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin: 10px;
 }
 
 .ap-box-number {
