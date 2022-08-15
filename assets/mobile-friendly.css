@@ -1,0 +1,288 @@
+@media (max-width: 1440px) {
+    /* Intro */
+
+    .intro-title {
+        font-size: 60px;
+    }
+
+    .info-block-text {
+        font-size: 20px;
+    }
+
+    .btn-desc {
+        font-size: 20px;
+    }
+
+    .btn {
+        width: 310px;
+    }
+
+
+    /* Gallery */
+
+    .gallery {
+        width: 1000px;
+    }
+
+    .gallery-img {
+        width: 300px;
+    }
+
+    .gallery-title {
+        font-size: 50px;
+    }
+
+    .gallery-text {
+        font-size: 20px;
+    }
+
+
+    /* Blueprint */
+
+    .blueprint-title {
+        font-size: 50px;
+    }
+
+    
+    /* Status */
+
+    span {
+        font-size: 20px;
+    }
+
+    .available-statusbar {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 1080px) {
+    /* Intro */
+
+    .intro-title {
+        font-size: 50px;
+    }
+
+    .info-icon {
+        width: 45px;
+    }
+
+    .btn-desc {
+        font-size: 18px;
+    }
+
+
+    /* Gallery */
+
+    .gallery {
+        width: 1000px;
+    }
+
+    .gallery-img {
+        width: 190px;
+    }
+
+    .gallery-title {
+        font-size: 40px;
+    }
+
+    .gallery-text {
+        font-size: 18px;
+    }
+
+
+    /* Blueprint */
+
+    .blueprint-title {
+        font-size: 40px;
+    }
+
+    
+    /* Status */
+
+    span {
+        font-size: 18px;
+    }
+
+    .available-statusbar {
+        margin-bottom: 50px;
+    }
+
+    .ap-box {
+        width: 297px;
+        height: 297px;
+    }
+
+    .ap-box-buy {
+        width: 70px;
+        height: 70px;
+        border-radius: 12px;
+    }
+
+    .ap-box-number {
+        font-size: 20px;
+    }
+
+    .ap-box-cost {
+        font-size: 14px;
+    }
+
+
+    /* Footer */
+
+    .footer-logo {
+        height: 40px;
+    }
+
+    .footer-mail {
+        height: 40px;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+
+    .footer-copyright-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 428px) {
+    /* Intro */
+
+    .intro {
+        justify-content: center;
+    }
+
+    .info-block {
+        display: none;
+    }
+
+    .intro-title {
+        font-size: 35px;
+    }
+
+    .info-block-text {
+        font-size: 15px;
+    }
+
+    .btn-desc {
+        font-size: 15px;
+    }
+
+    .btn {
+        width: 250px;
+    }
+
+    .btn-open-icon {
+        height: 30px;
+        width: 30px;
+    }
+
+
+    /* Gallery */
+
+    .gallery {
+        width: 1000px;
+        grid-template-columns: auto;
+    }
+
+    .gallery-img {
+        width: 190px;
+    }
+
+    .gallery-title {
+        font-size: 35px;
+        margin:  0 0 20px 0;
+    }
+
+    .gallery-text {
+        margin:  0 0 10px 0;
+    }
+
+    .gallery-text {
+        font-size: 15px;
+    }
+
+    .text-block {
+        grid-row: 2;
+        width: 350px;
+        margin: 0 auto;
+    }
+
+
+    /* Blueprint */
+
+    .blueprint-title {
+        font-size: 35px;
+    }
+
+    .blueprint-img {
+        border-radius: 0;
+    }
+
+    .blueprint {
+        padding: 0;
+    }
+
+    
+    /* Status */
+
+    span {
+        font-size: 15px;
+    }
+
+    .available-statusbar {
+        margin-bottom: 50px;
+    }
+
+    .available-status-item {
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 0;
+    }
+
+    .block {
+        margin: 0 0 10px 0;
+    }
+
+    .ap-box {
+        width: 270px;
+        height: 270px;
+    }
+
+    .ap-box-buy {
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+    }
+
+    .ap-box-number {
+        font-size: 16px;
+    }
+
+    .ap-box-cost {
+        font-size: 12px;
+    }
+
+
+    /* Footer */
+
+    .footer-logo {
+        height: 35px;
+    }
+
+    .footer-mail {
+        height: 35px;
+    }
+
+    .footer-text {
+        font-size: 14px;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .footer-copyright-text {
+        font-size: 12px;
+    }
+}
