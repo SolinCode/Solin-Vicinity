@@ -78,7 +78,7 @@
     }
 
     .gallery-img {
-        width: 190px;
+        width: 100%;
     }
 
     .gallery-title {
@@ -186,10 +186,6 @@
         grid-template-columns: auto;
     }
 
-    .gallery-img {
-        width: 190px;
-    }
-
     .gallery-title {
         font-size: 35px;
         margin:  0 0 20px 0;
@@ -205,7 +201,7 @@
 
     .text-block {
         grid-row: 2;
-        width: 350px;
+        width: 280px;
         margin: 0 auto;
     }
 
@@ -240,6 +236,7 @@
         flex-wrap: wrap;
         text-align: center;
         margin: 0;
+        width: 100px;
     }
 
     .block {
