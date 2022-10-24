@@ -661,3 +661,22 @@ footer {
         font-size: 12px;
     }
 }
+
+/* Footer */
+
+.footer__credits {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.footer__credits--style {
+    margin: 0;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.footer__credits--separator {
+    margin: 0 8px;
+}
