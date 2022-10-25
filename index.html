@@ -1,119 +1,102 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
+<head class="page">
+    <!-- Meta -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta property="og:title" content="Купить квартиру | Solin's Vicinity">
-    <meta property="og:description" content="Купить квартиру в игре Minecraft на сервере SubShield.">
+    <meta name="title" content="Купить квартиру — Solin's Vicinity">
+    <meta name="description" content="Данный сайт — инструкция по оформлению заявки на покупку квартиры в игре Minecraft на сервере SubShield">
+    <meta name="keywords" content="Solin Vicinity, Солин Висинити, solin vicinity, солин висинити">
+    <meta name="language" content="Russian">
+
+    <!-- Links -->
+    <link id="icon" rel="icon" href="https://www.solinofficial.com/favicon.svg">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="styles/main.css">
 
-    <link id="icon" rel="icon" href="https://www.solinofficial.com/favicon.svg">
-    <title>Купить квартиру | Solin's Vicinity</title>
+    <title>Купить квартиру — Solin's Vicinity</title>
 </head>
-<body>
-    <header>
-        <div class="header-inner container">
-            <div class="intro">
-                <h1 class="intro-title">Solin's Vicinity</h1>
-            </div>
-            <nav>
-                <div class="nav-inner">
-                    <div class="info">
-                        <a class="link" href="https://discord.com/invite/vSq8vw9672" aria-label="Дискорд сервер"></a>
-                        <img class="info-icon" src="static/icons/discord-logo.svg" alt="Логотип Клайд">
-                        <div class="info-block">
-                            <span class="info-block-text">Клан TeamTown</span>
-                            <span class="info-block-text">Clifs 999, 1444</span>
-                        </div>
-                    </div>
-                    <div class="btn">
-                        <a class="link" href="https://dyno.gg/form/635729d7" aria-label="Подать заявку"></a>
-                        <span class="btn-desc">Форма подачи заявки</span>
-                        <img class="btn-open-icon" src="static/icons/open-in-new-icon.svg" alt="Иконка открыть в новой вкладке">
-                    </div>
-                </div>
-            </nav>
+<body class="page__body">
+    <header class="header">
+        <div class="header__heading">
+            <h1 class="header__heading--title">Solin's Vicinity</h1>
+            <p class="header__heading--subtitle">Клан TeamTown<br>Clifs 999, 1444</p>
         </div>
-        <img class="header-bg" src="static/img/sv-background.jpg" alt="Основной задний фон">
-        <img class="header-bg hide" src="static/img/sv-background-mobile.jpg" alt="Основной задний фон">
+        <nav class="nav">
+            <a class="nav__icon" href="https://discord.com/invite/vSq8vw9672">
+                <img class="nav__icon" src="images/icons/discord-logo.svg" alt="Discord">
+            </a>
+            <a class="nav__link" href="https://dyno.gg/form/635729d7">
+                <p class="nav__link--title">Подать заявку</p>
+                <img class="nav__link--icon" src="images/icons/open-in-new-icon.svg" alt="Open in new tab">
+            </a>
+        </nav>
+        <img class="header__background" src="images/bg.jpg" alt="Background">
     </header>
-    <main>
-        <div class="container">
-            <div class="gallery margin">
-                <div class="image-block">
-                    <img class="gallery-img" src="static/img/grid/sv-1.jpg" alt="Фото первой квартиры изнутри">
-                    <img class="gallery-img" src="static/img/grid/sv-2.jpg" alt="Фото второй квартиры изнутри">
-                    <img class="gallery-img" src="static/img/grid/sv-3.jpg" alt="Фото третьей квартиры изнутри">
-                    <img class="gallery-img" src="static/img/grid/sv-4.jpg" alt="Фото четвертой квартиры изнутри">
-                </div>
-                <div class="text-block">
-                    <div>
-                        <h2 class="gallery-title">Квартиры</h2>
-                        <p class="gallery-text">В Solin’s Vicinity, вы можете выбрать  и купить квартиру с любым видом каким вы захотите!</p>
-                        <p class="gallery-text">Несколько примеров квартир внутри, но вы можете в любой момент посетить наш округ.</p>
-                    </div>
-                </div>
+    <main class="main">
+        <h2>Квартиры</h2>
+        <div class="appart">
+            <div class="appart__grid">
+                <img class="appart__grid---image 1" src="images/grid/1.jpg" alt="Appartment image 1">
+                <img class="appart__grid---image 2" src="images/grid/2.jpg" alt="Appartment image 2">
+                <img class="appart__grid---image 2" src="images/grid/3.jpg" alt="Appartment image 3">
+                <img class="appart__grid---image 3" src="images/grid/4.jpg" alt="Appartment image 4">
+            </div>
+            <div class="appart__desc">
+                <p>В Solin’s Vicinity, вы можете выбрать и купить квартиру с любым видом каким вы захотите!</p>
+                <p>Несколько примеров квартир внутри, но вы можете в любой момент посетить наш округ.</p>
             </div>
         </div>
-        <div class="container">
-            <div class="blueprint margin">
-                <h2 class="blueprint-title">План округа</h2>
-                <img class="blueprint-img" src="static/img/sv-blueprint.jpg" alt="План округа">
-            </div>
+        <h2>План округа</h2>
+        <div class="blueprint">
+            <img class="blueprint__image" src="images/blueprint.jpg" alt="Blueprint">
+            <p>Как выбрать квартиру?</p>
+            <p>Выберите любой дом, квартиру на плане, затем следуя цветам и корпусу оформите заявку.</p>
+            <p>Пример: B-A3, где B это корпус, A - это этаж, 3 - цвет</p>
+            <p>Цвета квартир на карте и их номер.</p>
+            <p>Красный - 1<br>Зеленый - 2<br>Бирюзовый - 3</p>
         </div>
-        <div class="container">
-            <div class="available margin">
-                <div class="available-statusbar">
-                    <div class="available-status-item">
-                        <div class="block green"></div>
-                        <span>Можно купить</span>
-                    </div>
-                    <div class="available-status-item">
-                        <div class="block red"></div>
-                        <span>Продано</span>
-                    </div>
-                    <div class="available-status-item">
-                        <div class="block blue"></div>
-                        <span>Бронь</span>
-                    </div>
+        <div class="display">
+            <div class="color">
+                <div class="color__container">
+                    <div class="color__container--block green"></div>
+                    <p class="color__container--note">Свободно</p>
                 </div>
-                <div class="available-status">
-                    <div class="center">
-                        <span>Корпус A</span>
-                        <div id="box1" class="ap-box"></div>
-                    </div>
-                    <div class="center">
-                        <span>Корпус B</span>
-                        <div id="box2" class="ap-box"></div>
-                    </div>
-                    <div class="center">
-                        <span>Корпус C</span>
-                        <div id="box3" class="ap-box"></div>
-                    </div>
+                <div class="color__container">
+                    <div class="color__container--block red"></div>
+                    <p class="color__container--note">Продано</p>
                 </div>
+                <div class="color__container">
+                    <div class="color__container--block blue"></div>
+                    <p class="color__container--note">Бронь</p>
+                </div>
+            </div>
+            <div class="status">
+                <h3>Корпус A</h3>
+                <div class="status__box" id="box1"></div>
+                <h3>Корпус B</h3>
+                <div class="status__box" id="box2"></div>
+                <h3>Корпус C</h3>
+                <div class="status__box" id="box3"></div>
             </div>
         </div>
     </main>
-    <footer>
-        <a href="https://solin.cc">
-            <img class="footer-logo" src="static/icons/solin-logo.svg" alt="Логотип Solin4035"></img>
+    <footer class="footer">
+        <a class="footer__logo" href="https://solin.cc">
+            <img class="footer__logo--icon" src="images/icons/solin-logo.svg" alt="Solin's logo">
         </a>
-        <span class="footer-text">На данном сайте продаются квартиры в игре <a href="https://minecraft.net">Minecraft</a> на сервере <a href="https://shield.land">Subshield</a></span>
-        <a href="mailto:contactwithsolin@gmail.com">
-            <img class="footer-mail" src="static/icons/mail-icon.svg" alt="Связатся"></img>
+        <p class="footer__notice">Данный сайт — инструкция по оформлению заявки на покупку квартиры в игре <a class="footer__notice--link" href="https://www.minecraft.net">Minecraft</a> на сервере <a class="footer__notice--link" href="https://shield.land">SubShield</a></p>
+        <a class="footer__mail" href="mailto:contactwithsolin@gmail.com">
+            <img class="footer__mail--icon" src="images/icons/mail-icon.svg" alt="Mail">
         </a>
     </footer>
-    <div class="footer__credits">
-        <a class="footer__credits--style" href="https://github.com/SolinCode/vicinity.solin.cc">GitHub Page</a>
-    </div>
     <script src="scripts/app.js"></script>
 </body>
 </html>
