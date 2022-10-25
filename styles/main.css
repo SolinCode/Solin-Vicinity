@@ -499,9 +499,17 @@ p {
     text-align: center;
 }
 
+@media (min-width: 600px) {
+    .footer__notice {
+        padding: 0 100px;
+        font-size: 22px;
+    }
+}
+
 @media (min-width: 700px) {
     .footer__notice {
         padding: 0 100px;
+        font-size: 26px;
     }
 }
 
