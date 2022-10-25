@@ -100,7 +100,6 @@ p {
 
 .header {
     position: relative;
-    width: 100vw;
     height: 100vh;
     box-shadow: inset 0px 0px 200px 75px rgba(0, 0, 0, 0.5);
 }
