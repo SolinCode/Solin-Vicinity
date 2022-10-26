@@ -156,6 +156,12 @@ p {
     }
 }
 
+.header__heading--subtitle-link {
+    text-decoration: none;
+    color: var(--text--color);
+    border-bottom: 2px solid var(--text--color);
+}
+
 .header__background {
     position: absolute;
     object-fit: cover;
